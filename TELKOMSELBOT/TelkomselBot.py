@@ -30,7 +30,7 @@ def display_row_by_column(update: Update, context):
         
         # Menambahkan baris pembatas sebelum row ke-8 (index 7)
         index_of_separator = 7  # Index column sebelum pembatas
-        separator = ['--------' * len(cell) for cell in table_data[0]]  # Baris pembatas
+        separator = ['-' * len(cell) for cell in table_data[0]]  # Baris pembatas
         
         # Memasukkan baris pembatas sebelum row ke-8
         table_data.insert(index_of_separator, separator)
@@ -51,5 +51,8 @@ updater.start_polling()
 
 # Jaga agar bot berjalan terus
 updater.idle()
+
+
+
 
 
