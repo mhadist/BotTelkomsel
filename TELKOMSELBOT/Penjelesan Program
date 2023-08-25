@@ -1,0 +1,6 @@
+Import semua package yang dibutuh terlebih dahulu di python anda
+package yang diperlukan :
+1. gspread
+2. oauth2client.service_account import ServiceAccountCredentials
+3. telegram
+4. tabulate
