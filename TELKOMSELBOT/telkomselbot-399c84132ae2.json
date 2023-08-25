@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "telkomselbot",
+  "private_key_id": "399c84132ae25ff73907eb4468336f1a46fe2893",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDvSgZJRwHNp4Eq\nR6W1/PZyZf+9RG4BrzNzSO7uWiNOT7/Ngfh8TPiODM3zzDFbqFpvBGhSAo/z04l5\nvLzNEPED/C+vc5GojNzGov49TVuq74u01rryS3sTeNqNcp9ax5I6LvneHpeIHoHw\n8LoziyvJY+5cW1HhQ5dRp6lWLRHpTEzg4DZUcHA7Z8zhDF72HiC2PV/+ICR5fxAY\nlQC8KEkjQ1RB2K99awik/UlaGYb9yzsZsizYu1yt1oBVFHgLkMGuxJ4q/DKpqgCR\neukRUtCVOupvLTltKst93KbTqS+6WPeM+E4/1y7dHAtMKYbkd7YG4KzJAFdrKFYa\nIi3Z29QDAgMBAAECggEAPsQdgwIXpICf/l2dx29Lm7VKkDRPYKy6o65JUgcdxLBh\ngL/rVHuCJQyRxzXT6pVt5znyPTTD2rKtmFub8HRVq/Rt86kuV1ZfoNDnPGA6v8sm\ny7AZiG2pInHsbfbXeuHnZtCkpRFEMSXDctZKGTQTr7dBMkOX5i0rF3WRkvOug5GI\nrvTsEhjzN5bJB2Qu87Ee6p9nKSetzO3bt80dzPksnKryNVb//jkN5mbZ760aVDlR\ngFpU4DJKDpvxGFGwSnjyTiR99wxvHj9V25pwScnowWG46GQvzRCSGaWX5Q42AHi2\niYYBTo7NHRw3Z/KYjHxU7RHbTIkSDooA2h2lXyOuvQKBgQD3jG8tW0iLpvNYV9eV\njqwaTopP7L4VSxD9tzm6uUfyrHiWUdibxg39XMY+MzxZr0fEmj5DrYD6y0Ne3qoM\ncr4iN9FLK7QPWuILoqQYRDms38LiEVh+l3HcUimkgFC86pXwqYp40kbvfiow1jGB\nPUupxPrICoBMq11i1kHcKThqRwKBgQD3dWc+QaCOwc0ED9k7vw27zNz26Dd2KFY4\nXB32Oe6ly7hJBD4oFcrmbsBqruikyZBAcAMnLbKZ7MpmLXSxsOJ00+L+W7PkwFzW\nYg+nAOeC7HNFOISOYO8pK+1c0HN/tI0Q2PtRMaqcdjVfik3DNDVAnnRnakX0X1Y0\n2t2ftGPqZQKBgQCzwyhM8Jfayc62nXtxIJz7sYMhDRLv1YYuKCrk3H1RzUr4JdE9\nNXKdRQy0yHIP0og0TanfbZRXCtoOf3VO+tf1c0Ep7D+iUuYJev7cnFahohAcKGpx\n6zoEuymASqnWtidSD1v95v0aFy0+L5zddAyI6QEP2QhYJKz5BAvpe4l7KwKBgQDC\n+WEYf3L3KCHWAnrCBX3Xq8mqTTttwMh2bbY5zFmJjqMr/MjQoqMUvsyjAh9Rv3MG\nInuJggsIFrc+nLAmVV2IeW6PxUdPhHVhgTAeAKtoz87fCnH/EMc/pFnIWIG4bFT9\nokkaJ0zrLIRPO9SbamZO/MpwtR5bNkbhLFWUwPg8tQKBgQCcfhaQoCqycODQmhgd\nFUU/LpK9msWMvIEWhf0eKN2uB5QjcQzNfyQ+DrvVH03SxY+ttscZJujPn6oXASFJ\ntXVghoecS5ynj3A/If07gPc8qR3BzsRUVasyodnYSftPVHvmwU5ZJcjQkeMtA/4T\n+GU081x/n574h/QEZyA5lWQEAg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "bot-telkomsel@telkomselbot.iam.gserviceaccount.com",
+  "client_id": "115871448749219972273",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bot-telkomsel%40telkomselbot.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
