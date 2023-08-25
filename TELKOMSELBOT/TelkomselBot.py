@@ -16,25 +16,29 @@ telegram_token = '6378921668:AAGTC5joAk6Wm6YlrpzD9jKk-Sdmdnm-a3M'
 updater = Updater(token=telegram_token, use_context=True)
 dispatcher = updater.dispatcher
 
-# Fungsi untuk menampilkan seluruh row berdasarkan column yang dimasukkan
 def display_row_by_column(update: Update, context):
-    column_value = update.message.text.strip()  # Mendapatkan nilai yang dikirimkan oleh pengguna
-    column_values = sheet2.col_values(2) 
+    column_value = update.message.text.strip()
+    column_values = sheet2.col_values(2)
 
     if column_value in column_values:
         row_num = column_values.index(column_value) + 1
         row = sheet2.row_values(row_num)
-        
-        # Mengambil header (baris pertama) dari spreadsheet
         header = sheet2.row_values(1)
         
-        # Menggabungkan header dan data baris yang ditemukan
-        table_data = list(zip(header, row))  # Menggabungkan header dengan data row secara vertikal
+        # Menyusun data header dan baris sebagai tabel vertikal
+        table_data = [[header[i], row[i]] for i in range(len(header))]
         
-        # Membuat pesan dengan format yang diinginkan
-        message = "\n".join([f"{header_item}: {row_item}" for header_item, row_item in table_data])
+        # Menambahkan baris pembatas sebelum row ke-8 (index 7)
+        index_of_separator = 7  # Index column sebelum pembatas
+        separator = ['--------' * len(cell) for cell in table_data[0]]  # Baris pembatas
         
-        update.message.reply_text(message)
+        # Memasukkan baris pembatas sebelum row ke-8
+        table_data.insert(index_of_separator, separator)
+        
+        # Menggunakan tabulate untuk format tabel
+        table = tabulate(table_data, tablefmt="plain")
+        
+        update.message.reply_text("Data ditemukan:\n```\n" + table + "\n```", parse_mode="Markdown")
     else:
         update.message.reply_text("Data tidak ditemukan.")
 
@@ -47,4 +51,5 @@ updater.start_polling()
 
 # Jaga agar bot berjalan terus
 updater.idle()
+
 
